@@ -19,7 +19,7 @@ public class Ejercicio2_Main {
         Autor a3 = new Autor("003", "Jorge Luis Borges", "Argentino");
         Autor a4 = new Autor("004", "Isabel Allende", "Chilena");
 
-        //Agrego 5 libros asociados a los autores de la biblio
+        //Agrego 5 libros asociados a los autores de la biblioteca
         bib.agregarLibro("123456789", "Veinte Poemas de Amor", 1924, a1);
         bib.agregarLibro("987654321", "Los días del Venado", 2000, a2);
         bib.agregarLibro("234567890", "Fervor de Buenos Aires", 1923, a3);
