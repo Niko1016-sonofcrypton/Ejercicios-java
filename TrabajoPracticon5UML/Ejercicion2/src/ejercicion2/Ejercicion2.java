@@ -13,8 +13,14 @@ public class Ejercicion2 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args){
+        Usuario usuario = new Usuario ("Regina Perez", "34827655");
+        
+        Celular celular= new Celular("74626f8mm", "Apple", 
+                "Iphone 17",new Bateria ("Li-ion", 250));
+        
+        celular.setUsuario(usuario);
+        
+        celular.mostrarCelular();
     }
-    
 }
